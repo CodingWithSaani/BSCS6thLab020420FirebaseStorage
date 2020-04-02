@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BSCS6thLab020420FirebaseStorage</string>
+    <string name="open_upload_page">Open Upload Page</string>
+    <string name="open_download_page">Open Download Page</string>
+    <string name="enter_the_image_name_here">Enter the image name here</string>
+    <string name="upload_image">Upload Image</string>
+</resources>

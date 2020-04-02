@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadScreen">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageNameET"
+        android:hint="@string/enter_the_image_name_here"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxLength="20"
+        android:maxLines="1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/imageToUploadIV"
+        android:layout_below="@id/imageNameET"
+        android:scaleType="centerCrop"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_image"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/imageUploadingBtn"
+        android:layout_below="@id/imageToUploadIV"
+        />
+
+</RelativeLayout>
